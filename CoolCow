@@ -1,0 +1,491 @@
+
+----------- Key System Version V.06 ---------------------------
+ 
+            ---- Thanks for Using Our Key System V6 ----------------------
+ 
+    -----------  Made by : cool cow / stick cow#5297 ---------------------------
+
+local ScreenGui = Instance.new("ScreenGui")
+local KeySystemFolder = Instance.new("Folder")
+local KeySystem = Instance.new("ImageLabel")
+local Txt = Instance.new("TextLabel")
+local Txt_Roundify_12px = Instance.new("ImageLabel")
+local KeyHere = Instance.new("TextBox")
+local KeyHere_Roundify_12px = Instance.new("ImageLabel")
+local SubmitKey = Instance.new("TextButton")
+local SubmitKey_Roundify_12px = Instance.new("ImageLabel")
+local Info = Instance.new("TextButton")
+local TextButton_Roundify_12px = Instance.new("ImageLabel")
+local X = Instance.new("TextButton")
+local X_Roundify_12px = Instance.new("ImageLabel")
+local Logos = Instance.new("Folder")
+local LogInLogo = Instance.new("ImageLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local AlertLogo = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local KeyLogo = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local AlertLogo_2 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local InformationGui = Instance.new("Folder")
+local Information = Instance.new("ImageLabel")
+local Coolcow1 = Instance.new("TextButton")
+local Coolcow1_Roundify_12px = Instance.new("ImageLabel")
+local Minimize = Instance.new("TextButton")
+local Minimize_Roundify_12px = Instance.new("ImageLabel")
+local Credits = Instance.new("TextLabel")
+local Credits_Roundify_12px = Instance.new("ImageLabel")
+local CopyDiscord = Instance.new("TextButton")
+local CopyDiscord_Roundify_12px = Instance.new("ImageLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+KeySystemFolder.Name = "Key System.Folder"
+KeySystemFolder.Parent = ScreenGui
+
+KeySystem.Name = "KeySystem"
+KeySystem.Parent = KeySystemFolder
+KeySystem.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KeySystem.BackgroundTransparency = 1.000
+KeySystem.Position = UDim2.new(0.395245284, 0, 0.327811569, 0)
+KeySystem.Size = UDim2.new(0, 498, 0, 295)
+KeySystem.Image = "rbxassetid://3570695787"
+KeySystem.ImageColor3 = Color3.fromRGB(103, 103, 103)
+KeySystem.ImageTransparency = 0.450
+KeySystem.ScaleType = Enum.ScaleType.Slice
+KeySystem.SliceCenter = Rect.new(100, 100, 100, 100)
+KeySystem.SliceScale = 0.120
+KeySystem.Active = true
+KeySystem.Draggable = true
+
+
+Txt.Name = "Txt"
+Txt.Parent = KeySystem
+Txt.BackgroundColor3 = Color3.fromRGB(79, 82, 95)
+Txt.BackgroundTransparency = 1.000
+Txt.BorderSizePixel = 0
+Txt.Position = UDim2.new(0.0462758541, 0, 0.0965460762, 0)
+Txt.Size = UDim2.new(0, 419, 0, 50)
+Txt.ZIndex = 2
+Txt.Font = Enum.Font.SourceSans
+Txt.Text = "Key System V.06"
+Txt.TextColor3 = Color3.fromRGB(0, 0, 0)
+Txt.TextScaled = true
+Txt.TextSize = 14.000
+Txt.TextWrapped = true
+
+Txt_Roundify_12px.Name = "Txt_Roundify_12px"
+Txt_Roundify_12px.Parent = Txt
+Txt_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Txt_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Txt_Roundify_12px.BackgroundTransparency = 1.000
+Txt_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Txt_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Txt_Roundify_12px.Image = "rbxassetid://3570695787"
+Txt_Roundify_12px.ImageColor3 = Color3.fromRGB(79, 82, 95)
+Txt_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Txt_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+Txt_Roundify_12px.SliceScale = 0.120
+
+KeyHere.Name = "KeyHere..."
+KeyHere.Parent = KeySystem
+KeyHere.BackgroundColor3 = Color3.fromRGB(79, 82, 95)
+KeyHere.BackgroundTransparency = 1.000
+KeyHere.BorderSizePixel = 0
+KeyHere.Position = UDim2.new(0.11069233, 0, 0.318421066, 0)
+KeyHere.Size = UDim2.new(0, 333, 0, 50)
+KeyHere.ZIndex = 2
+KeyHere.Font = Enum.Font.SourceSans
+KeyHere.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+KeyHere.PlaceholderText = "Key Here......"
+KeyHere.Text = ""
+KeyHere.TextColor3 = Color3.fromRGB(0, 0, 0)
+KeyHere.TextScaled = true
+KeyHere.TextSize = 14.000
+KeyHere.TextWrapped = true
+
+KeyHere_Roundify_12px.Name = "KeyHere...._Roundify_12px"
+KeyHere_Roundify_12px.Parent = KeyHere
+KeyHere_Roundify_12px.Active = true
+KeyHere_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+KeyHere_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KeyHere_Roundify_12px.BackgroundTransparency = 1.000
+KeyHere_Roundify_12px.Position = UDim2.new(0.530038834, 0, 0.580000043, 0)
+KeyHere_Roundify_12px.Selectable = true
+KeyHere_Roundify_12px.Size = UDim2.new(1.01803565, 0, 1, 0)
+KeyHere_Roundify_12px.Image = "rbxassetid://3570695787"
+KeyHere_Roundify_12px.ImageColor3 = Color3.fromRGB(79, 82, 95)
+KeyHere_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+KeyHere_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+KeyHere_Roundify_12px.SliceScale = 0.120
+
+SubmitKey.Name = "SubmitKey"
+SubmitKey.Parent = KeySystem
+SubmitKey.BackgroundColor3 = Color3.fromRGB(79, 82, 95)
+SubmitKey.BackgroundTransparency = 1.000
+SubmitKey.BorderSizePixel = 0
+SubmitKey.Position = UDim2.new(0.054275874, 0, 0.546381533, 0)
+SubmitKey.Size = UDim2.new(0, 410, 0, 50)
+SubmitKey.ZIndex = 2
+SubmitKey.Font = Enum.Font.SourceSans
+SubmitKey.Text = "Submit Key!"
+SubmitKey.TextColor3 = Color3.fromRGB(0, 0, 0)
+SubmitKey.TextScaled = true
+SubmitKey.TextSize = 14.000
+SubmitKey.TextWrapped = true
+SubmitKey.MouseButton1Down:connect(function()
+    local key = KeyHere.Text
+    local whitelistKeys = {
+        ["Key1"] = true,
+        ["Key2"] = true,
+        ["Key3"] = true,
+        ["Key4"] = true,
+        ["Key5"] = true,
+        ["Key6"] = true,
+        ["Key7"] = true,
+        ["Key8"] = true,
+        ["Key9"] = true,
+        ["Key10"] = true,
+        ["Key11"] = true,
+        ["Key12"] = true,
+        ["Key13"] = true,
+        ["Key14"] = true,
+        ["Key15"] = true,
+        ["Key16"] = true,
+        ["Key17"] = true,
+        ["Key18"] = true,
+        ["Key19"] = true,
+        ["Key20"] = true,
+        ["Key21"] = true,
+        ["Key22"] = true,
+        ["Key23"] = true,
+        ["Key24"] = true,
+        ["Key25"] = true,
+        ["Key26"] = true,
+        ["Key27"] = true,
+        ["Key28"] = true,
+        ["Key29"] = true,
+        ["Key30"] = true,
+        ["Key31"] = true,
+        ["Key32"] = true,
+    }
+
+    if whitelistKeys[key] then
+        KeySystem.Visible = false
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+                         -- Script Here --
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+        
+            local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua", true))()
+            Notification.new("success", "Script Version", "Version : V.06")
+            notif:deleteTimeout(5) 
+        
+        print("Successfully Loaded!") 
+        
+    else
+        game.Players.LocalPlayer:Kick("Error Occoured : Kicked For Incorrect Key, Please Try Again!")
+    end
+    
+end)
+
+SubmitKey_Roundify_12px.Name = "SubmitKey_Roundify_12px"
+SubmitKey_Roundify_12px.Parent = SubmitKey
+SubmitKey_Roundify_12px.Active = true
+SubmitKey_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+SubmitKey_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SubmitKey_Roundify_12px.BackgroundTransparency = 1.000
+SubmitKey_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+SubmitKey_Roundify_12px.Selectable = true
+SubmitKey_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+SubmitKey_Roundify_12px.Image = "rbxassetid://3570695787"
+SubmitKey_Roundify_12px.ImageColor3 = Color3.fromRGB(79, 82, 95)
+SubmitKey_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+SubmitKey_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+SubmitKey_Roundify_12px.SliceScale = 0.120
+
+Info.Name = "Info"
+Info.Parent = KeySystem
+Info.BackgroundColor3 = Color3.fromRGB(79, 82, 95)
+Info.BackgroundTransparency = 1.000
+Info.BorderSizePixel = 0
+Info.Position = UDim2.new(0.156704098, 0, 0.768750012, 0)
+Info.Size = UDim2.new(0, 308, 0, 50)
+Info.ZIndex = 2
+Info.Font = Enum.Font.SourceSans
+Info.Text = "ⓘ Click For More Information. ⓘ"
+Info.TextColor3 = Color3.fromRGB(0, 0, 0)
+Info.TextScaled = true
+Info.TextSize = 14.000
+Info.TextWrapped = true
+Info.TextWrapped = true
+    Info.MouseButton1Down:connect(function()
+        Information.Visible = true
+        end)
+
+
+TextButton_Roundify_12px.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px.Parent = Info
+TextButton_Roundify_12px.Active = true
+TextButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px.BackgroundTransparency = 1.000
+TextButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px.Selectable = true
+TextButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px.ImageColor3 = Color3.fromRGB(79, 82, 95)
+TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px.SliceScale = 0.120
+
+X.Name = "X"
+X.Parent = KeySystem
+X.BackgroundColor3 = Color3.fromRGB(255, 30, 0)
+X.BackgroundTransparency = 1.000
+X.BorderSizePixel = 0
+X.Position = UDim2.new(0.904591143, 0, 0.0951754302, 0)
+X.Size = UDim2.new(0, 39, 0, 50)
+X.ZIndex = 2
+X.Font = Enum.Font.SourceSans
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(0, 0, 0)
+X.TextScaled = true
+X.TextSize = 14.000
+X.TextWrapped = true
+X.MouseButton1Down:connect(function()
+    Information.Visible = false
+    KeySystem.Visible = false
+    end)
+
+
+X_Roundify_12px.Name = "X_Roundify_12px"
+X_Roundify_12px.Parent = X
+X_Roundify_12px.Active = true
+X_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+X_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X_Roundify_12px.BackgroundTransparency = 1.000
+X_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+X_Roundify_12px.Selectable = true
+X_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+X_Roundify_12px.Image = "rbxassetid://3570695787"
+X_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 30, 0)
+X_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+X_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+X_Roundify_12px.SliceScale = 0.120
+
+Logos.Name = "Logos"
+Logos.Parent = KeySystem
+
+LogInLogo.Name = "LogIn.Logo"
+LogInLogo.Parent = Logos
+LogInLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LogInLogo.BackgroundTransparency = 1.000
+LogInLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LogInLogo.BorderSizePixel = 0
+LogInLogo.Position = UDim2.new(0.898411512, 0, 0.559322059, 0)
+LogInLogo.Size = UDim2.new(0, 42, 0, 210)
+LogInLogo.Image = "rbxassetid://7072718412"
+
+UIAspectRatioConstraint.Parent = LogInLogo
+
+AlertLogo.Name = "Alert.Logo"
+AlertLogo.Parent = Logos
+AlertLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AlertLogo.BackgroundTransparency = 1.000
+AlertLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AlertLogo.BorderSizePixel = 0
+AlertLogo.Position = UDim2.new(0.804997981, 0, 0.766963959, 0)
+AlertLogo.Size = UDim2.new(0, 39, 0, 42)
+AlertLogo.Image = "rbxassetid://7072980286"
+
+UIAspectRatioConstraint_2.Parent = AlertLogo
+
+KeyLogo.Name = "Key.Logo"
+KeyLogo.Parent = Logos
+KeyLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KeyLogo.BackgroundTransparency = 1.000
+KeyLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KeyLogo.BorderSizePixel = 0
+KeyLogo.Position = UDim2.new(0.895627797, 0, 0.34126246, 0)
+KeyLogo.Size = UDim2.new(0, 57, 0, 43)
+KeyLogo.Image = "rbxassetid://7072717958"
+
+UIAspectRatioConstraint_3.Parent = KeyLogo
+
+AlertLogo_2.Name = "Alert.Logo"
+AlertLogo_2.Parent = Logos
+AlertLogo_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AlertLogo_2.BackgroundTransparency = 1.000
+AlertLogo_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AlertLogo_2.BorderSizePixel = 0
+AlertLogo_2.Position = UDim2.new(0.0534060001, 0, 0.766963959, 0)
+AlertLogo_2.Size = UDim2.new(0, 39, 0, 42)
+AlertLogo_2.Image = "rbxassetid://7072980286"
+
+UIAspectRatioConstraint_4.Parent = AlertLogo_2
+
+InformationGui.Name = "InformationGui"
+InformationGui.Parent = KeySystem
+
+Information.Name = "Information"
+Information.Parent = InformationGui
+Information.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Information.BackgroundTransparency = 1.000
+Information.Position = UDim2.new(0.997992098, 0, 0.138760015, 0)
+Information.Size = UDim2.new(0, 310, 0, 224)
+Information.Visible = false
+Information.Image = "rbxassetid://3570695787"
+Information.ImageColor3 = Color3.fromRGB(103, 103, 103)
+Information.ImageTransparency = 0.450
+Information.ScaleType = Enum.ScaleType.Slice
+Information.SliceCenter = Rect.new(100, 100, 100, 100)
+Information.SliceScale = 0.120
+
+Coolcow1.Name = "Coolcow1"
+Coolcow1.Parent = Information
+Coolcow1.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Coolcow1.BackgroundTransparency = 1.000
+Coolcow1.BorderSizePixel = 0
+Coolcow1.Position = UDim2.new(0.017918691, 0, 0.361279249, 0)
+Coolcow1.Size = UDim2.new(0, 273, 0, 39)
+Coolcow1.ZIndex = 2
+Coolcow1.Font = Enum.Font.SourceSans
+Coolcow1.Text = "Scripter :	cool cow / stick cow#5297"
+Coolcow1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Coolcow1.TextScaled = true
+Coolcow1.TextSize = 14.000
+Coolcow1.TextWrapped = true
+
+Coolcow1_Roundify_12px.Name = "Coolcow1_Roundify_12px"
+Coolcow1_Roundify_12px.Parent = Coolcow1
+Coolcow1_Roundify_12px.Active = true
+Coolcow1_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Coolcow1_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Coolcow1_Roundify_12px.BackgroundTransparency = 1.000
+Coolcow1_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Coolcow1_Roundify_12px.Selectable = true
+Coolcow1_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Coolcow1_Roundify_12px.Image = "rbxassetid://3570695787"
+Coolcow1_Roundify_12px.ImageColor3 = Color3.fromRGB(80, 80, 80)
+Coolcow1_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Coolcow1_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+Coolcow1_Roundify_12px.SliceScale = 0.120
+
+Minimize.Name = "Minimize"
+Minimize.Parent = Information
+Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+Minimize.BackgroundTransparency = 1.000
+Minimize.BorderSizePixel = 0
+Minimize.Position = UDim2.new(0.813528121, 0, 0.0271186419, 0)
+Minimize.Size = UDim2.new(0, 35, 0, 50)
+Minimize.ZIndex = 2
+Minimize.Font = Enum.Font.SourceSans
+Minimize.Text = "-"
+Minimize.TextColor3 = Color3.fromRGB(0, 0, 0)
+Minimize.TextScaled = true
+Minimize.TextSize = 14.000
+Minimize.TextWrapped = true
+Minimize.MouseButton1Down:connect(function()
+    Information.Visible = false
+    end)
+
+
+Minimize_Roundify_12px.Name = "Minimize_Roundify_12px"
+Minimize_Roundify_12px.Parent = Minimize
+Minimize_Roundify_12px.Active = true
+Minimize_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Minimize_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimize_Roundify_12px.BackgroundTransparency = 1.000
+Minimize_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Minimize_Roundify_12px.Selectable = true
+Minimize_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Minimize_Roundify_12px.Image = "rbxassetid://3570695787"
+Minimize_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 255, 0)
+Minimize_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Minimize_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+Minimize_Roundify_12px.SliceScale = 0.120
+
+Credits.Name = "Credits"
+Credits.Parent = Information
+Credits.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Credits.BackgroundTransparency = 1.000
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.0647246838, 0, 0.0271186382, 0)
+Credits.Size = UDim2.new(0, 200, 0, 50)
+Credits.ZIndex = 2
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "-- Credits --"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+Credits_Roundify_12px.Name = "Credits_Roundify_12px"
+Credits_Roundify_12px.Parent = Credits
+Credits_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Credits_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits_Roundify_12px.BackgroundTransparency = 1.000
+Credits_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Credits_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Credits_Roundify_12px.Image = "rbxassetid://3570695787"
+Credits_Roundify_12px.ImageColor3 = Color3.fromRGB(80, 80, 80)
+Credits_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Credits_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+Credits_Roundify_12px.SliceScale = 0.120
+
+CopyDiscord.Name = "CopyDiscord"
+CopyDiscord.Parent = Information
+CopyDiscord.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+CopyDiscord.BackgroundTransparency = 1.000
+CopyDiscord.BorderColor3 = Color3.fromRGB(80, 80, 80)
+CopyDiscord.BorderSizePixel = 0
+CopyDiscord.Position = UDim2.new(0.0626380891, 0, 0.603107333, 0)
+CopyDiscord.Size = UDim2.new(0, 246, 0, 50)
+CopyDiscord.ZIndex = 2
+CopyDiscord.Font = Enum.Font.SourceSans
+CopyDiscord.Text = "Copy Viper Hub Discord!"
+CopyDiscord.TextColor3 = Color3.fromRGB(0, 0, 0)
+CopyDiscord.TextScaled = true
+CopyDiscord.TextSize = 14.000
+CopyDiscord.TextWrapped = true
+CopyDiscord.MouseButton1Down:connect(function()
+        setclipboard("https://discord.gg/72bkGgjcRD")
+        wait()
+        local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua", true))()
+        Notification.new("success", "Notifcation!", "Discord Copied To Clipboard.")
+        notif:deleteTimeout(5) 
+    end)
+
+CopyDiscord_Roundify_12px.Name = "CopyDiscord_Roundify_12px"
+CopyDiscord_Roundify_12px.Parent = CopyDiscord
+CopyDiscord_Roundify_12px.Active = true
+CopyDiscord_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+CopyDiscord_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CopyDiscord_Roundify_12px.BackgroundTransparency = 1.000
+CopyDiscord_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+CopyDiscord_Roundify_12px.Selectable = true
+CopyDiscord_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+CopyDiscord_Roundify_12px.Image = "rbxassetid://3570695787"
+CopyDiscord_Roundify_12px.ImageColor3 = Color3.fromRGB(80, 80, 80)
+CopyDiscord_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+CopyDiscord_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+CopyDiscord_Roundify_12px.SliceScale = 0.120
+
+-------
+
+
+
+
+    
